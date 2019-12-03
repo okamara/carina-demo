@@ -20,7 +20,8 @@
 	<parameter name="jenkinsPipelineEnvironments" value="DEMO" />
 	<parameter name="jenkinsJobExecutionOrder" value="1" />
 	<parameter name="jenkinsJobExecutionMode" value="continue" />
-
+        <parameter name="overrideFields" value="browser=firefox"/>
+	
 	<test name="Mobile test">
 		<classes>
 			<class name="com.qaprosoft.carina.demo.MobileSampleTest" />
