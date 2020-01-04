@@ -2,7 +2,7 @@
 <suite name="Carina Demo Tests - Mobile Sample (iOS)" verbose="1"
 	skipfailedinvocationcounts="false" junit="false" parallel="tests"
 	data-provider-thread-count="1" annotations="JDK">
-
+        <capabilities="platformName;; deviceName=''; browserName= and browserVersion" />
 	<parameter name="suiteOwner" value="qpsdemo" />
 	<parameter name="zafira_project" value="UNKNOWN" />
 	<parameter name="jenkinsJobCreation" value="true" />
