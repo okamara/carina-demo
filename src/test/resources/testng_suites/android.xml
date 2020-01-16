@@ -11,7 +11,7 @@
 
 	<parameter name="stringParam::capabilities.app::path to carina demo mobile application on the appium server host" value="/opt/apk/carinademoexample.apk" />
 
-	<parameter name="jenkinsDefaultThreadCount" value="1" />
+	<parameter name="jenkinsDefaultThreadCount" value="2" />
 	<parameter name="jenkinsMobileDefaultPool" value="ANY" />
 
 <!-- 	<parameter name="jenkinsRegressionPipeline" value="Carina-Demo-Regression-Pipeline" /> -->
