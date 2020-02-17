@@ -6,7 +6,7 @@
 	<parameter name="suiteOwner" value="qpsdemo" />
 	<parameter name="zafira_project" value="UNKNOWN" />
 	<parameter name="jenkinsJobName" value="Mobile-iOS-Demo-Test" />
-	<parameter name="jenkinsJobType" value="ios"/>
+	<parameter name="jenkinsJobType" value="ios-web"/>
 	<parameter name="jenkinsEmail" value="demo@qaprosoft.com" />
 	<parameter name="jenkinsEnvironments" value="DEMO" />
 
