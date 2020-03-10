@@ -8,7 +8,7 @@
 	<parameter name="jenkinsJobName" value="Mobile-iOS-Demo-Test" />
 	<parameter name="jenkinsJobType" value="ios"/>
 	<parameter name="jenkinsEmail" value="demo@qaprosoft.com" />
-	<parameter name="jenkinsEnvironments" value="DEMO" />
+	<parameter name="jenkinsEnvironments" value="PROD; DEMO; Test1" />
 
 	<parameter name="stringParam::capabilities.app::path to carina demo mobile application on the appium server host" value="/opt/apk/carinademoexample.zip" />
 
