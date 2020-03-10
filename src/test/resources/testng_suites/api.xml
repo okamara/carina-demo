@@ -15,9 +15,9 @@
 	<parameter name="jenkinsDefaultThreadCount" value="3"/>
 
 	
-	<parameter name="jenkinsPipelineEnvironments" value="STAG"/>
+	
 	<parameter name="jenkinsEnvironments" value="DEMO"/>
-	<parameter name="jenkinsPipelineEnvironments" value="PROD, DEV"/>
+	<parameter name="jenkinsEnvironments" value="Test1"/>
 	
 	<parameter name="jenkinsSlackChannels" value="slack-test"/>
 	
