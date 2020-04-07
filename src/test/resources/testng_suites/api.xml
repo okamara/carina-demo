@@ -8,7 +8,7 @@
 
 	<parameter name="suiteOwner" value="qpsdemo"/>
 	<parameter name="zafira_project" value="UNKNOWN"/>
-	<parameter name="jenkinsJobName" value="API-Demo-Test"/>
+	<parameter name="jenkinsJobName" value="API-Demo-Test-1_1"/>
 	<parameter name="jenkinsJobType" value="api"/>
 
 	<!-- Example howto override default job thread_count via jobDSL parameter -->
@@ -17,7 +17,7 @@
 	<parameter name="jenkinsEnvironments" value="DEMO"/>
 	<parameter name="jenkinsSlackChannels" value="slack-test"/>
 	
-	<parameter name="jenkinsRegressionPipeline" value="nightly_regression, full_regression"/>
+	<parameter name="jenkinsRegressionPipeline" value="nightly_regression-1, full_regression-1"/>
 	<parameter name="jenkinsRegressionScheduling_nightly_regression" value="H 2 * * *"/>
 
 	<parameter name="jenkinsPipelineEnvironments" value="DEMO"/>	
