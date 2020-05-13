@@ -28,7 +28,7 @@ import com.qaprosoft.carina.demo.gui.components.WeValuePrivacyAd;
 
 public class HomePage extends AbstractPage {
     Logger LOGGER = Logger.getLogger(HomePage.class);
-    
+    private String unUsedVar;
     @FindBy(id = "footmenu")
     private FooterMenu footerMenu;
 
