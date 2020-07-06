@@ -31,11 +31,14 @@ public class FooterMenu extends AbstractUIObject {
 
     @FindBy(linkText = "Compare")
     private ExtendedWebElement compareLink;
-    
+    String st = null;
     @FindBy(linkText = "News")
     private ExtendedWebElement newsLink;
 
     public FooterMenu(WebDriver driver, SearchContext searchContext) {
+if (st.isEmpty()) {
+	System.out.println();
+}
         super(driver, searchContext);
     }
 
