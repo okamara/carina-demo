@@ -36,17 +36,15 @@ public class FooterMenu extends AbstractUIObject {
     private ExtendedWebElement newsLink;
 
     public FooterMenu(WebDriver driver, SearchContext searchContext) {
-if (st.isEmpty()) {
-	System.out.println();
-}
         super(driver, searchContext);
     }
-
     public HomePage openHomePage() {
+    if (st.isEmpty()) {
+	System.out.println("empty");  
+    }
         homeLink.click();
         return new HomePage(driver);
     }
-
     public CompareModelsPage openComparePage() {
         compareLink.click();
         return new CompareModelsPage(driver);
