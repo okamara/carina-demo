@@ -9,7 +9,7 @@
 	<parameter name="jenkinsEnvironments" value="DEMO"/>
 	<parameter name="jenkinsSlackChannels" value="slack-test"/>
 	
-	<parameter name="jenkinsDefaultGitBranch" value="testbr2"/>
+	<parameter name="testtest" value="testtest"/>
 	
 	<parameter name="jenkinsRegressionPipeline" value="api_regression, full_regression"/>
 	<parameter name="jenkinsRegressionScheduling_api_regression" value="H 2 * * *"/>
