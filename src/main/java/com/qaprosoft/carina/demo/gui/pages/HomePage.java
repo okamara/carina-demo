@@ -38,7 +38,6 @@ public class HomePage extends AbstractPage {
     private String st = null;
     public HomePage(WebDriver driver) {
         super(driver);
-        super(driver);
     }
 
     public FooterMenu getFooterMenu() {
