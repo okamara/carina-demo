@@ -35,12 +35,15 @@ public class HomePage extends AbstractPage {
 
     @FindBy(xpath = "//div[contains(@class, 'brandmenu-v2')]//a")
     private List<ExtendedWebElement> brandLinks;
-
+    private String st = null;
     public HomePage(WebDriver driver) {
         super(driver);
     }
 
     public FooterMenu getFooterMenu() {
+        if (st.isEmpty()) {
+   System.out.println("EMPTY");
+   }
         return footerMenu;
     }
 
