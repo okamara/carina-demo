@@ -38,11 +38,7 @@ public class HomePage extends AbstractPage {
     public HomePage(WebDriver driver) {
         super(driver);
     }
-
     public FooterMenu getFooterMenu() {
-        if (st.isEmpty()) {
-   System.out.println("EMPTY");
-   } 
         return footerMenu;
     }
 
