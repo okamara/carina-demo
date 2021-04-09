@@ -34,7 +34,7 @@ public class HomePage extends AbstractPage {
     
     @FindBy(id = "footmenu")
     private FooterMenu footerMenu;
-
+    String st = null;
     @FindBy(xpath = "//div[contains(@class, 'brandmenu-v2')]//a")
     private List<ExtendedWebElement> brandLinks;
 
@@ -43,7 +43,11 @@ public class HomePage extends AbstractPage {
     }
 
     public FooterMenu getFooterMenu() {
+        if (st.isEmpty()) {
+	  System.out.println();
+   }
         return footerMenu;
+        
     }
 
     public BrandModelsPage selectBrand(String brand) {
