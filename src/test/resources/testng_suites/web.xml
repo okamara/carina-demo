@@ -6,7 +6,8 @@
 	<parameter name="jenkinsJobType" value="web"/>
 	<parameter name="jenkinsEnvironments" value="DEMO"/>
 	<parameter name="jenkinsEmail" value="demo@qaprosoft.com"/>
-  
+        <parameter name="jenkinsLocale" value="en_US,ca_CA,fr_FR"/>
+	
 	<parameter name="jenkinsRegressionPipeline" value="web_regression, full_regression"/>
 	<parameter name="jenkinsPipelineEnvironments" value="DEMO"/>
 
