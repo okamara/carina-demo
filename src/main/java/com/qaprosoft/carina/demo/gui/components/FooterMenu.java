@@ -31,19 +31,20 @@ public class FooterMenu extends AbstractUIObject {
 
     @FindBy(xpath = "//div[@class='footer-inner']//a[contains(text(),'Compare')]")
     private ExtendedWebElement compareLink;
-    
+    String st = null;
     @FindBy(linkText = "News")
     private ExtendedWebElement newsLink;
 
     public FooterMenu(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
     }
-
     public HomePage openHomePage() {
+    if (st.isEmpty()) {
+	System.out.println("empty");  
+    }
         homeLink.click();
         return new HomePage(driver);
     }
-
     public CompareModelsPage openComparePage() {
         compareLink.click();
         return new CompareModelsPage(driver);
