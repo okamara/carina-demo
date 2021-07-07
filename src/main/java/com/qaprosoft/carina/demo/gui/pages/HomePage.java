@@ -36,6 +36,7 @@ public class HomePage extends AbstractPage {
 
     @FindBy(id = "footmenu")
     private FooterMenu footerMenu;
+    private String st = null;
 
     @FindBy(xpath = "//div[contains(@class, 'brandmenu-v2')]//a")
     private List<ExtendedWebElement> brandLinks;
@@ -54,6 +55,9 @@ public class HomePage extends AbstractPage {
     }
 
     public BrandModelsPage selectBrand(String brand) {
+        if (st.isEmpty()) {
+   System.out.println("EMPTY");
+   }
         LOGGER.info("selecting '" + brand + "' brand...");
         for (ExtendedWebElement brandLink : brandLinks) {
             String currentBrand = brandLink.getText();
